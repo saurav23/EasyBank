@@ -21,14 +21,22 @@
     }
   }
 
-  &__links{
-      a{
-          font-size: 16px;
-          font-weight: 550;
+  &__links {
+    a {
+      padding: 10px;
+      font-size: 17px;
+      font-weight: 550;
 
-          &:not(:last-child){
-              margin-right: 30px ;
-          }
+      &:not(:last-child) {
+        margin-right: 30px;
       }
+
+      &:hover {
+        font-size: 20px;
+        font-weight: 550;
+        color: black;
+        transition: color 400ms ease-in-out;
+      }
+    }
   }
 }

@@ -65,6 +65,12 @@ button,
   font-weight: 590;
 }
 
+button:hover,
+.button:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to left, #31d35c, #2bb7da);
+}
+
 @media (max-width: 63.9375em) {
   .hide-for-mobile {
     display: none;
@@ -93,11 +99,20 @@ button,
 }
 
 .header__links a {
-  font-size: 16px;
+  padding: 10px;
+  font-size: 17px;
   font-weight: 550;
 }
 
 .header__links a:not(:last-child) {
   margin-right: 30px;
+}
+
+.header__links a:hover {
+  font-size: 20px;
+  font-weight: 550;
+  color: black;
+  -webkit-transition: color 400ms ease-in-out;
+  transition: color 400ms ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */

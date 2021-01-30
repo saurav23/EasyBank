@@ -53,6 +53,11 @@ button,
   font-family: "Oswald", sans-serif;
   font-size: 16.5px;
   font-weight: 590;
+  // ----- 
+  &:hover{
+    background-image: linear-gradient(to left, $limeGreen, $brightCyan);
+
+  }
 }
 
 // Visibility
